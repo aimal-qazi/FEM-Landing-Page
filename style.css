@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.btn button {
+  padding: 10px 25px;
+  outline: none;
+  border: 1px solid hsl(321, 100%, 78%);
+  background: transparent;
+  color: hsl(321, 100%, 78%);
+  border-radius: 20px;
+}
+.first {
+  padding: 5rem;
+  text-align: center;
+}
+.first h1 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+.first p {
+  color: #444;
+  max-width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+.first-btn {
+  padding: 13px 70px;
+  margin-top: 1.5rem;
+  border: none;
+  color: #fff;
+  background: hsl(322, 100%, 66%);
+  border-radius: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.big-img img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.first-pa {
+  margin-top: 4rem;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-pa .left img {
+  width: 30px;
+}
+.first-pa .left h1 {
+  font-size: 3rem;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+.first-pa .left p {
+  color: #444;
+  padding-top: 6px;
+}
+.first-pa .right img {
+  width: 30px;
+}
+.first-pa .right h1 {
+  font-size: 3rem;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+.first-pa .right p {
+  color: #444;
+  padding-top: 6px;
+}
+.par {
+  margin-top: 10rem;
+}
+.par .box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box .right img {
+  width: 80%;
+  float: right;
+}
+.box .left h1 {
+  font-size: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+.box .left p {
+  color: #444;
+  margin-top: 6px;
+  line-height: 20px;
+}
+.par .box2 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  flex-direction: row-reverse;
+}
+.box2 .right img {
+  width: 80%;
+  float: left;
+}
+.box2 .left h1 {
+  font-size: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+.box2 .left p {
+  color: #444;
+  margin-top: 6px;
+  line-height: 20px;
+}
+.par .box3 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+.box3 .right img {
+  width: 80%;
+  float: right;
+}
+.box3 .left h1 {
+  font-size: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+.box3 .left p {
+  color: #444;
+  margin-top: 6px;
+  line-height: 20px;
+}
+.community {
+  margin-top: 12rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.community h1 {
+  font-size: 2.5rem;
+  color: hsl(192, 100%, 9%);
+}
+.footer {
+  padding: 2rem 10%;
+  background: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: space-between;
+}
+.footer .left p {
+  color: #fff;
+  max-width: 70%;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.footer .right {
+  float: right;
+}
+.footer .right h1 {
+  color: #fff;
+  text-align: center;
+  max-width: 70%;
+}
+.footer .right p {
+  max-width: 70%;
+  color: #fff;
+  line-height: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.logo-img {
+  display: flex;
+}
+.logo-img h1 {
+  color: #fff;
+}
+.social p {
+  display: inline-block;
+  margin-left: 10px;
+}
+.social i {
+  color: #fff;
+}
+.footer .right input {
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width: 850px) {
+  nav {
+    padding: 0;
+  }
+  .first {
+    padding: 3rem;
+  }
+  .first p {
+    max-width: 60%;
+  }
+  .first-pa {
+    display: block;
+    text-align: center;
+  }
+  .first-pa .left {
+    margin-bottom: 50px;
+  }
+  .par .box {
+    display: block;
+  }
+  .par .box {
+    text-align: center;
+  }
+  .par .box2 {
+    display: block;
+  }
+  .par .box2 {
+    text-align: center;
+  }
+  .par .box3 {
+    display: block;
+  }
+  .par .box3 {
+    text-align: center;
+  }
+  .footer {
+    display: block;
+  }
+  .footer .right {
+    float: left;
+  }
+}
